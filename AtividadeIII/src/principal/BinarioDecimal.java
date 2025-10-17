@@ -9,9 +9,10 @@ public class BinarioDecimal {
     }
 
     public static void main(String[] args) {
-        String binario = "11001"; // exemplo: 11001 = 25
+        String binario = "11001"; 
         int decimal = converter(binario, 0);
         System.out.println("Binário: " + binario + " → Decimal: " + decimal);
     }
 }
+
 
